@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+.header{
+  background-color: gray;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: red;
+}
+.nav{
+  width: 60%;
+  float: left;
+  background-color: blue;
+}
+.logo{
+  width: 40%;
+  float: left;
+  background-color: green;
+}
+.logo-img{
+  width: 20%;
+}
+.header-list{
+  display: inline-block;
+}
+.header-item{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 17px;
+}
